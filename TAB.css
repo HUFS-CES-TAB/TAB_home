@@ -112,12 +112,19 @@ body {
   .achievements {
     height: 100%;
   }
+  .activity_text h1,
   .achievement_text,
   .advantages_text,
   .QnA_text {
     margin-left: 3%;
-    font-size: 6vw;
-    font-weight: bold;
+  font-size: 4vh;
+  font-weight: bold;
+  }
+  .activity_text h4
+  {
+    margin-left: 3%;
+ 
+  font-weight: bold;
   }
   .achievement_wrap {
     display: grid;
@@ -342,15 +349,23 @@ body {
     height:100vh;
     /*height: calc(var(--vh)*100);*/
   } 
-  
+  li{
+    list-style: none;
+  }
   .activities_menu_wrap li{
     margin:0 10px;
+  }
+  .content{
+    /* padding-left: 25%;
+    padding-right: 25%; */
+   
   }
   
   .tab-content img{
     list-style: none;
     /* height:100vh; */
-    width: 50%;
+    height:45vh;
+    /* width: 50%; */
     /* width: 50%;  */
     border-radius: 5%;
     /*padding: 5%;*/
@@ -373,21 +388,23 @@ body {
     list-style-type: none;
     padding:0;
   }
-  
-  .activity_text{
+/*   
+  .activity_text h1{
     position: relative;
     left:2%;
     font-size: 40px;
-  }
+
+  } */
   .activities_item_wrap{
     display:flex;
     /* display: inline-flex; */
     justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    height:80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    /* height:vmax; */
     padding-left: 5%;
     padding-right: 5%;
+    
     /* width:50%; */
   }
   
@@ -422,25 +439,47 @@ body {
     scroll-behavior: smooth;
     white-space: normal;
     height: 30%; 
+    
     /* 
     width:50%; */
     display: -webkit-box;
     justify-content: center;
     padding:0;
   }
+  .controls span{
+    position: inline-block;
+    background: #333;
+    color:#fff;
+    padding:10px 20px;
+    margin: 0 10px;
+    top: 50%;
   
-  
+    transform:translateY(-50%);
+
+  }
+  .controls{
+    text-align: center;
+    margin-top:0;
+  }
+  .controls span .prev{right:calc(100%+50px);}
+  .controls span .next{right:calc(100%+50px);}
+
   .tab-4 span{
     font-size:30%;
   }
 
-#tab31,#tab42 {
+/* #tab31,#tab42 {
     display:flex;
     flex-wrap: wrap;
 	align-content: stretch;
-  }
+  } */
 p {
-  width:60%;
+  width:50%;
   
 }
+/* .activity_text{
+  margin-left: 3%;
+  font-size: 6vw;
+  font-weight: bold;
+} */
   
