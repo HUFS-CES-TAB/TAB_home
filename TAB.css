@@ -190,11 +190,17 @@ img {
   height: 180%;
   margin-bottom: 8vh;
 }
+.activity_text h1,
 .achievement_text,
 .advantages_text,
 .QnA_text {
   margin-left: 3%;
   font-size: 4vh;
+  font-weight: bold;
+}
+.activity_text h4{
+  text-align: center;
+  
   font-weight: bold;
 }
 .achievement_wrap {
@@ -685,3 +691,13 @@ p {
 footer{
   text-align: center;
 }
+#logo{
+  font-size: 5vh;
+  margin-left: 3%;
+  margin-top: 3%;
+  font-weight: bold;
+  font-family : Arial;
+  
+  text-shadow: 3px 3px 3px #5d6c7a;
+}
+
