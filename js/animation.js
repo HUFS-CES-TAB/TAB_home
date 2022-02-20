@@ -11,3 +11,12 @@ function fade_in() {
 }
 setTimeout(slide_left, 500);
 setTimeout(fade_in , 1000); 
+var home = document.getElementById('logo');
+home.addEventListener('click',window.onload);
+
+window.onload = function(){
+    setTimeout(function(){
+        scrollTo(0,0);
+
+    },100);
+}
