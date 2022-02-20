@@ -416,8 +416,8 @@ img {
 .activity,
 .main {
   height: 100vh;
-  /*height: calc(var(--vh)*100);*/
-}
+  /* height: calc(var(--vh)*100); */}
+
 @media screen and (max-width: 540px) {
   .main {
     height: 50vh;
@@ -681,4 +681,7 @@ img {
 p {
   width:50%;
   
+}
+footer{
+  text-align: center;
 }

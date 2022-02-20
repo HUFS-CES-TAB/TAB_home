@@ -30,7 +30,8 @@ const adFRFunc = function() {
 const adRFunc = function() {
   for (const element of adRElementList) {
     if (!element.classList.contains('show')) {
-      if (window.innerHeight > element.getBoundingClientRect().top + saTriggerMargin) {
+      if (window.innerHeight > element.getBoundingClientRect().top -1000) {
+
         element.classList.add('show');
       }
     }
