@@ -1,20 +1,33 @@
+//menu_mouseover 
 var menu = document.getElementsByClassName("menu_wrap")
 var menuItem = document.getElementsByClassName("menu_item");
-function handleMouseOver(e) {
-    e.target.style.animation = "mouseover 0.5s 1";
+function handleMenuMouseOver(e) {
+
+    if (screen.width > 540) {
+        e.target.style.animation = "mouseover 0.5s 1";
+        e.target.style.fontSize = "2vh";
+    }else {
+        e.target.style.animation = "mouseover_mobile 0.5s 1";
+        e.target.style.fontSize = "1.5vh";
+    }
     e.target.style.fontWeight = "bold";
-    e.target.style.fontSize = "20px";
     e.target.style.cursor = "pointer";
 
 }
 
-function handleMouseOut(e) {
+function handleMenuMouseOut(e) {
+
+    if (screen.width > 540) {
+        e.target.style.fontSize = "1.5vh";
+    }else {
+        e.target.style.fontSize = "0.5vh";
+    }
+    
     e.target.style.animation = "none";
     e.target.style.fontWeight = "200";
-    e.target.style.fontSize = "17px"
 }
 
 for(var i = 0; i < menuItem.length; i++) {
-    menuItem[i].addEventListener("mouseover", handleMouseOver);
-    menuItem[i].addEventListener("mouseout", handleMouseOut)
+    menuItem[i].addEventListener("mouseover", handleMenuMouseOver);
+    menuItem[i].addEventListener("mouseout", handleMenuMouseOut)
 }

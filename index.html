@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAB</title>
     <link href = "TAB.css" rel = "stylesheet">
@@ -35,28 +37,61 @@
                 <div>
                     <span id = "TAB_text">TAB</span>
                 </div>
-                <br>
                 <div>
                     <span id = "TAB_abbreviation_text">TALK ABOUT BUG</span>                    
                 </div>
-                <br>
-            </div>
-            <div class = "apply">
-                
-                <div class = "apply_btn">
-                    <a>JOIN US!</a>
+                <div>
+                    <span id = "JOINUS_text">JOIN US?</span>
                 </div>
-                
+                <div>
+                    <span id = "CMS_text">Coming Soon!</span>
+                </div>
+            </div>
+            <div class = "circles">
+                <div>
+                    <div class = "circle circle1" id = "circle1-1">
+
+                    </div>
+                    <div class = "circle circle1" id = "circle1-2">
+
+                    </div>
+                    <div class = "circle circle1" id = "circle1-3">
+
+                    </div>
+                </div>
+                <div>
+                    <div class = "circle circle2" id = "circle2-1">
+
+                    </div>
+                    <div class = "circle circle2" id = "circle2-2">
+
+                    </div>
+                    <div class = "circle circle2" id = "circle2-3">
+
+                    </div>
+                </div>
+                <div>
+                    <div class = "circle circle3" id = "circle3-1">
+
+                    </div>
+                    <div class = "circle circle3" id = "circle3-2">
+
+                    </div>
+                    <div class = "circle circle3" id = "circle3-3">
+
+                    </div>
+                </div>
             </div>
 
 
         </div>
-
-        <section class = "activity">
-            <section class = "activity_text sa-up">
+      <section class = "activity">
+            <section class = "activity_text">
                 <h1>다양한 학회활동 분야</h1>
+                <h4>분야를 눌러 활동을 확인해보세요</h4>
             </section>
             <div class = "activities_content">
+                <!-- <h5>분야를 눌러 활동을 확인해보세요</h5> -->
                 <nav class = "myNav">
                     <ul class = "activities_menu_wrap">
                         <li class = "tab-link current" data-tab="tab-1">Web
@@ -74,111 +109,115 @@
                     </ul>
                 </nav>
                 <section class = "activities_item_wrap">
+                    <div class = "slide_wrapper">
+                        
                     
-                    <div id="tab-1" class="tab-content current" data-carousel>
-                       
+                    </div>
+                    <div id="tab-1" class="tab-content" data-carousel>
+                        
                         <div class="tab-1 content" id="tab11">
-                            <img src = "asset/활동/FE_그림판활동사진.PNG"></img>
-                        <p>html,css,js 기초를 학습하기위해 토이프로젝트로 
-                            그림판을 만들어보았습니다.</p>
+                            <img src = "asset/활동/FE_그림판활동사진.PNG">
+                            <p>html,css,js 토이프로젝트;<br/>
+                                그림판 만들기</p></img>
+                        
                         </div>
-                        <div class="tab-1 content"id="tab12"><img src = "asset/활동/FE_네이버로고클론코딩.png"></img>
-                            <p>네이버 로그인페이지를 따라 만들어보는 클론코딩을 통하여, 웹의 기본뼈대가 되는 html,css를 학습했습니다.</p></div>
+                        <div class="tab-1 content"id="tab12"><img src = "asset/활동/FE_네이버로고클론코딩.png">
+                        </img>
+                            <p>네이버 로그인페이지클론코딩</p></div>
                         <div class= "tab-1 content"id="tab13">
-                            <img src = "asset/활동/FE_웹로드맵세미나.png"></img>
-                        <p>39기 신입생들을 대상으로 웹 프론트
-                            엔드 로드맵세미나를 진행되었습니다</p>
+                            <img src = "asset/활동/FE_웹로드맵세미나.png">
+                            <p>프론트엔드 로드맵세미나</p>
+                        </img>
+                        
                         </div>
                         <div class ="tab-1 content"id="tab14">
-                            <img src = "asset/활동/BE_로드맵세미나.png"></img>
-                        <p>39기 신입생들을 대상으로 웹 백엔드 로드맵세미나가 진행되었습니다</p>
+                            <img src = "asset/활동/BE_로드맵세미나.png">
+                            <p> 백엔드 로드맵세미나 </p>
+                        </img>
+                        
                         </div>
-                        <div class ="tab-1 content" id="tab15"><img src = "asset/활동/BE_장고스터디.png"></img>
-                            <p>파이썬 백엔드 프레임워크인 django 를 이용해 홈페이
-                                지를 기획및 제작하였습니다.</p></div>
+                        <div class ="tab-1 content" id="tab15"><img src = "asset/활동/BE_장고스터디.png">
+                            <p>django 스터디</p></img>
+                            </div>
                         
                        <div class="tab-1 content" id="tab16">
                         <img src = "asset/활동/FE_자기소개.png"></img>
-                        <p>html 기초를 학습하기위해 간단한 태그들을 활용하여 자기소개 페이지를 만들어봤습니다.</p>
+                        <p>html 기초;자기소개 페이지</p>
                        </div>
                     </div>
                     <div id="tab-2" class="tab-content">
+                        
                         <div class="tab-2 content"id="tab21"><img src = "asset/활동/계산기.gif">
-                            <p>프로그래밍 언어 JAVA를 활용해 계산기앱을 개발했습니다.</p></img></div>
+                            <p>JAVA 계산기앱 제작.</p></img></div>
                         <div class="tab-2 content"id="tab22"><img src = "asset/활동/AP_로드맵세미나.png">
-                            <p>39기 신입생들을 대상으로 앱(ios)로드맵 세미나가 진행되었습니다.</p></img></div>
+                            <p>앱(ios)로드맵 세미나</p></img></div>
                         <div class="tab-2 content"id="tab23">
                             <img src = "asset/활동/AP_리스트만들기.gif">
-                        <p>프로그래밍 언어 JAVA를 활용해 음식 리스트를 저장하고, 음식추천앱을 개발했습니다.</p></img>
+                        <p>JAVA 음식추천앱 제작</p></img>
                         </div>
                     </div>
                     <div id="tab-3" class="tab-content"data-carousel>
+                        
                         <div class="tab-3 content"id="tab31">
-                            <img class = "two" src = "asset/활동/ML_스터디.png"></img>
-                            <img class = "two" src = "asset/활동/ML_스터디_alpha.png"></img>
-                            <p>Neural Style Transfer 실습으로
-                                이미지와 style을 합쳐서 다음과같이
-                                출력해보는 작업을 진행했습니다.
+                            <img class = "two picture" src = "asset/활동/ML_스터디.png"></img>
+                            <!-- <img class = "two picture" src = "asset/활동/ML_스터디_alpha.png"></img> -->
+                            <p>Neural Style Transfer 실습;
+                                이미지와 스타일 합치기
                             </p>
                         </div>
-                        <div class = "tab-3 content"id="tab32"><img src = "asset/활동/ML_스터디2.PNG"></img>
-                            <p>Andrew Ng Cousera  강의를 기반
-                                으로 머신러닝 기초부터 신경망까지
-                                스터디를 진행하였습니다.</p></div>
+                        <div class = "tab-3 content"id="tab32">
+                            <img src = "asset/활동/ML_스터디2.PNG">
+                            <p>Andrew Ng Cousera 강의 기반
+                                머신러닝 기초부터 신경망까지
+                                스터디 진행</p></img>
+                            </div>
     
                         <div class = "tab-3 content"id="tab33">
                             <img src = "asset/활동/ML_1학기 스터디.png"></img>
-                        <p> 자연어처리와 관련된 스터디가 진행되었습니다.</p>
+                        <p> 자연어처리 스터디</p>
                         </div>
                         
                     </div>
                     <div id="tab-4" class="tab-content"data-carousel>
+                        
                         <div class ="tab-4 content" id="tab41"><img src = "asset/활동/SE_보안세미나.PNG"></img>
-                            <p>39기 신입생들을 대상으로  
-                                보안 로드맵 세미나가 진행되었습니다</p></div>
+                            <p>
+                                보안 로드맵 세미나</p></div>
                         <div class ="tab-4 content" id="tab42">
-                            <img src = "asset/활동/SE_보안스터디1.png"></img>
+                            <!-- <img src = "asset/활동/SE_보안스터디1.png"></img> -->
                         <img src = "asset/활동/SE_보안스터디2.png"></img>
-                        <p>악성코드 분석 시작하기 책을 기반으로 
-                            스터디를 진행
-                            <span>위의 문제는 스터디에서 풀이한 ctf문제로, 디지털포렌식을 이용하여 
-                                달사진에서 key를 찾는 문제입니다.</span>
+                        <p>악성코드 분석 시작하기 책 스터디
                         </p>  
                         </div>
                         
                           
                     </div>
                     <div id="tab-5" class="tab-content"data-carousel>
-                        <div class = "tab-5 content" id="tab51"><img src = "asset/활동/GM_로드맵세미나.png"></img>
-                        <p>39기 신입생들을 대상으로 33기 정호진님께서 
-                            게임 로드맵 세미나를 진행해주셨습니다.</p></div>
-                        <div class = "tab-5 content" id="tab52">
+                        <div class = "tab-5 content" id="tab51">
                             <img src = "asset/활동/GM_플랫포머.gif"></img>
-                        <p>게임 프로그래밍에 주로 사용되는 유니티 게임엔진을 기초부터
-                            플랫포머게임을 만들어보는 스터디가 진행되었습니다.
+                        <p>
+                            플랫포머게임 제작; 쿠키런 클론코딩
                         </p>  
                         </div>
+                        <div class = "tab-5 content" id="tab52"><img src = "asset/활동/GM_로드맵세미나.png"></img>
+                        <p>
+                            게임 로드맵 세미나</p></div>
+                        
                         <div class = "tab-5 content" id="tab53">
                             <img src = "asset/활동/GM_방탈출.gif"></img>
-                        <p>유니티 게임엔진을 활용하여 방탈출게임을 만들었습니다.</p>  
+                        <p>방탈출게임 제작</p>  
                         </div>
-                        
-                          
-                        
-                        <!-- <img src = "asset/활동/"></img>
-                        <p>html,css,js 기초를 학습하기위해 그림판을 클론코딩해보았습니다.</p> -->
                     </div>
                     <div id="tab-6" class="tab-content"data-carousel>
+                        
                         <div class = "tab-6 content" id="tab61">
                             <img src = "asset/활동/ET_깃허브.png"></img>
-                        <p>많은 개발자들이 사용중인 깃허브를 익히기위해 개념부터 사용방법에 관한내용을
-                            세미나가 진행되었습니다.
+                        <p>깃허브 사용법
                         </p>
                         </div>
                         <div class = "tab-6 content" id="tab62">
                             <img src = "asset/활동/ET_모각코2.png"></img>
-                        <p>방학시즌을 이용하여 모여서 각자 코딩한다의 줄임말인 모각코 프로그램을 진행하였습니다.
-                            gather town 메타버스에서 학회원들과 교류하고 코딩할수있는 활동이었습니다.
+                        <p>학회 gather town 모각코
                         </p>
                     
                         </div>
@@ -191,6 +230,9 @@
             </div>
             
         </section>
+        
+            
+       
         <div class = "achievements">
             <div class = "achievement_text">
                 TAB이<br>이루어온 것들
@@ -208,7 +250,7 @@
                             <br>
                             전판근
                             <br>
-                            정호근
+                            정호진
                         </span>
                     </div>
                 
@@ -446,6 +488,9 @@
                             코딩에 대해 흥미를 심어주고 학교 공부 그 이상의 것들을 경험할 수 있도록<br>
                             📚🖥️다양한 스터디 활동과 세미나들이 있을 예정입니다.
                         </div>
+                        <div class = "A_item sa-left" id = "A3-2">
+                            자세한 일정은 추후에 공지해 드리겠습니다!
+                        </div>
                     </div>
                 </div>
                 <div class = "QnA_item" id ="Q4">
@@ -479,7 +524,7 @@
 <script src = "js/awardee_mouseover.js"></script>
 <script src = "js/scroll.js"></script>
 <script src = "js/scroll_move.js"></script>
-<script src = "js/activity_anim.js"></script>
-<script src = "js/animation.js"></script>
-<script src = "js/menubar.js"></script>
+<script src="js/activity_anim.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/menubar.js"></script>
 </html>
