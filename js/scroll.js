@@ -5,6 +5,8 @@ const adRElementList = document.querySelectorAll(".advantages_room_item_contents
 const aITElementList = document.querySelectorAll(".advantages_item_text")
 const QElementList = document.querySelectorAll(".Q_wrap");
 const AElementList = document.querySelectorAll(".A_item");
+const TElementList = document.querySelectorAll(".activity_text");
+const ACElementList = document.querySelectorAll(".activities_content");
 
 const saFunc = function() {
   for (const element of saElementList) {
@@ -65,6 +67,24 @@ const AFunc = function() {
     }
   }
 }
+const TFunc = function() {
+  for (const element of TElementList) {
+    if (!element.classList.contains('show')) {
+      if (window.innerHeight > element.getBoundingClientRect().top + saTriggerMargin) {
+        element.classList.add('show');
+      }
+    }
+  }
+}
+const ACFunc = function() {
+  for (const element of ACElementList) {
+    if (!element.classList.contains('show')) {
+      if (window.innerHeight > element.getBoundingClientRect().top + saTriggerMargin) {
+        element.classList.add('show');
+      }
+    }
+  }
+}
 window.addEventListener('load', saFunc);
 window.addEventListener('scroll', saFunc);
 
@@ -82,3 +102,9 @@ window.addEventListener('scroll', QFunc);
 
 window.addEventListener('load', AFunc);
 window.addEventListener('scroll', AFunc);
+
+window.addEventListener('load', TFunc);
+window.addEventListener('scroll', TFunc);
+
+window.addEventListener('load', ACFunc);
+window.addEventListener('scroll', ACFunc);

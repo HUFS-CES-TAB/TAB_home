@@ -120,12 +120,7 @@ body {
   font-size: 4vh;
   font-weight: bold;
   }
-  .activity_text h4
-  {
-    margin-left: 3%;
- 
-  font-weight: bold;
-  }
+  
   .achievement_wrap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -340,10 +335,7 @@ body {
   #A4-2 {
     margin-left: 350px;
   }
-  .show {
-    opacity: 1;
-    transform: none;
-  }
+  
   
    .activity , .main{
     height:100vh;
@@ -404,8 +396,7 @@ body {
     /* height:vmax; */
     padding-left: 5%;
     padding-right: 5%;
-    
-    /* width:50%; */
+ 
   }
   
   .media_area{
@@ -477,9 +468,18 @@ p {
   width:50%;
   
 }
+.activity_text,
+.activities_content{
+  opacity: 0;
+
+}
 /* .activity_text{
   margin-left: 3%;
   font-size: 6vw;
   font-weight: bold;
 } */
+.show {
+  opacity: 1;
+  transform: none;
+}
   
