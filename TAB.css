@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'Gowun Batang', serif;
   }
   
   .logo_menu_wrap {
@@ -105,9 +106,9 @@ body {
     vertical-align: middle;
   }
   
-  img {
+  /* img {
     border-radius: 20px;
-  }
+  } */
   .achievements {
     height: 100%;
   }
@@ -342,14 +343,16 @@ body {
     /*height: calc(var(--vh)*100);*/
   } 
   
-  li{
+  .activities_menu_wrap li{
     margin:0 10px;
   }
   
-  img{
+  .tab-content img{
     list-style: none;
-    height:43%;
-    width: 50%; 
+    /* height:100vh; */
+    width: 50%;
+    /* width: 50%;  */
+    border-radius: 5%;
     /*padding: 5%;*/
   }
   .myNav li {
@@ -378,7 +381,14 @@ body {
   }
   .activities_item_wrap{
     display:flex;
+    /* display: inline-flex; */
     justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    height:80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* width:50%; */
   }
   
   .media_area{
@@ -408,22 +418,29 @@ body {
     display:flex;
     margin:3%;
     background-color: black;
-    overflow:scroll;
-    height: 30%;
-    width:50%;
+    overflow-x:scroll;
+    scroll-behavior: smooth;
+    white-space: normal;
+    height: 30%; 
+    /* 
+    width:50%; */
     display: -webkit-box;
-   
-    
     justify-content: center;
-    
-    
     padding:0;
-    
   }
-  .tab-content img{
-    /*width: 50%;*/
-  }
-  span{
+  
+  
+  .tab-4 span{
     font-size:30%;
   }
+
+#tab31,#tab42 {
+    display:flex;
+    flex-wrap: wrap;
+	align-content: stretch;
+  }
+p {
+  width:60%;
+  
+}
   
