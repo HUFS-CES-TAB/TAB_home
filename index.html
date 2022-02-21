@@ -93,10 +93,9 @@
                 <h4>분야를 눌러 활동을 확인해보세요</h4>
             </section>
             <div class = "activities_content">
-                <!-- <h5>분야를 눌러 활동을 확인해보세요</h5> -->
                 <nav class = "myNav">
                     <ul class = "activities_menu_wrap">
-                        <li class = "tab-link current" data-tab="tab-1">Web
+                        <li class = "tab-link " data-tab="tab-1">Web
                         </li>
                         <li class = "tab-link" data-tab="tab-2">App
                         </li>
@@ -110,98 +109,107 @@
                         </li>
                     </ul>
                 </nav>
-                <section class = "activities_item_wrap">
-                    <div class = "slide_wrapper">
-                        
+                <div class="tab-content" id="gotohere">
+                    <h4 >양옆으로 움직여 더 많은 컨텐츠를 확인해보세요!<br/>PC: 콘텐츠 클릭후 양옆 방향키<br/>Mobile: 스와이프</h4>
                     
-                    </div>
-                    <div id="tab-1" class="tab-content" data-carousel>
-                        
-                        <div class="tab-1 content" id="tab11">
-                            <img src = "asset/활동/FE_그림판활동사진.PNG">
+                    
+                </div>
+                
+                <section class = "activities_item_wrap">
+                    
+                    
+                    <div id="tab-1" class="tab-content ">
+                       
+                        <div class="tab-1 item_content" id="tab11" data-tab="index-1">
+                            <img src = "asset/활동/FE_그림판활동영상.gif">
                             <p>html,css,js 토이프로젝트;<br/>
                                 그림판 만들기</p></img>
                         
                         </div>
-                        <div class="tab-1 content"id="tab12"><img src = "asset/활동/FE_네이버로고클론코딩.png">
+                        <div class="tab-1 item_content"id="tab12" data-tab="index-2"><img src = "asset/활동/FE_네이버로고클론코딩.png">
                         </img>
-                            <p>네이버 로그인페이지클론코딩</p></div>
-                        <div class= "tab-1 content"id="tab13">
+                            <p>네이버 로그인페이지 클론코딩<br/>
+                            <span>*클론코딩이란?<br/>
+                            실제 서비스기능및 UI를 따라 만들어보며 공부하는 방식 </span></p></div>
+                        <div class= "tab-1 item_content"id="tab13" data-tab="index-3">
                             <img src = "asset/활동/FE_웹로드맵세미나.png">
                             <p>프론트엔드 로드맵세미나</p>
                         </img>
                         
                         </div>
-                        <div class ="tab-1 content"id="tab14">
+                        <div class ="tab-1 item_content"id="tab14">
                             <img src = "asset/활동/BE_로드맵세미나.png">
                             <p> 백엔드 로드맵세미나 </p>
                         </img>
                         
                         </div>
-                        <div class ="tab-1 content" id="tab15"><img src = "asset/활동/BE_장고스터디.png">
+                        <div class ="tab-1 item_content" id="tab15"><img src = "asset/활동/BE_장고스터디.png">
                             <p>django 스터디</p></img>
                             </div>
                         
-                       <div class="tab-1 content" id="tab16">
+                       <div class="tab-1 item_content" id="tab16">
                         <img src = "asset/활동/FE_자기소개.png"></img>
                         <p>html 기초;자기소개 페이지</p>
                        </div>
                     </div>
                     <div id="tab-2" class="tab-content">
                         
-                        <div class="tab-2 content"id="tab21"><img src = "asset/활동/계산기.gif">
-                            <p>JAVA 계산기앱 제작.</p></img></div>
-                        <div class="tab-2 content"id="tab22"><img src = "asset/활동/AP_로드맵세미나.png">
+                        <div class="tab-2 item_content"id="tab21"><img src = "asset/활동/계산기.gif">
+                            <p>JAVA를 이용한 계산기앱 제작.</p></img></div>
+                        <div class="tab-2 item_content"id="tab22"><img src = "asset/활동/AP_로드맵세미나.png">
                             <p>앱(ios)로드맵 세미나</p></img></div>
-                        <div class="tab-2 content"id="tab23">
+                        <div class="tab-2 item_content"id="tab23">
                             <img src = "asset/활동/AP_리스트만들기.gif">
-                        <p>JAVA 음식추천앱 제작</p></img>
+                        <p>JAVA를 이용한 음식추천앱 제작</p></img>
                         </div>
                     </div>
-                    <div id="tab-3" class="tab-content"data-carousel>
+                    <div id="tab-3" class="tab-content">
                         
-                        <div class="tab-3 content"id="tab31">
+                        <div class="tab-3 item_content"id="tab31">
                             <img class = "two picture" src = "asset/활동/ML_스터디.png"></img>
                             <!-- <img class = "two picture" src = "asset/활동/ML_스터디_alpha.png"></img> -->
-                            <p>Neural Style Transfer 실습;
+                            <p>Neural Style Transfer 실습;<br/>
                                 이미지와 스타일 합치기
                             </p>
                         </div>
-                        <div class = "tab-3 content"id="tab32">
+                        <div class = "tab-3 item_content"id="tab32">
                             <img src = "asset/활동/ML_스터디2.PNG">
                             <p>Andrew Ng Cousera 강의 기반
                                 머신러닝 기초부터 신경망까지
                                 스터디 진행</p></img>
                             </div>
     
-                        <div class = "tab-3 content"id="tab33">
+                        <div class = "tab-3 item_content"id="tab33">
                             <img src = "asset/활동/ML_1학기 스터디.png"></img>
                         <p> 자연어처리 스터디</p>
                         </div>
                         
                     </div>
-                    <div id="tab-4" class="tab-content"data-carousel>
+                    <div id="tab-4" class="tab-content">
                         
-                        <div class ="tab-4 content" id="tab41"><img src = "asset/활동/SE_보안세미나.PNG"></img>
+                        <div class ="tab-4 item_content" id="tab41"><img src = "asset/활동/SE_보안세미나.PNG"></img>
                             <p>
                                 보안 로드맵 세미나</p></div>
-                        <div class ="tab-4 content" id="tab42">
+                        <div class ="tab-4 item_content" id="tab42">
                             <!-- <img src = "asset/활동/SE_보안스터디1.png"></img> -->
-                        <img src = "asset/활동/SE_보안스터디2.png"></img>
-                        <p>악성코드 분석 시작하기 책 스터디
+                        <img src = "asset/활동/SE_보안스터디1.png"></img>
+                        <p>악성코드 분석 시작하기 책 스터디<br/>
+                            <span>위 사진은 스터디중 풀이한 ctf 기출문제입니다.<br/>디지털 포렌식을 이용해
+                            사진속에 숨겨진 단어를 찾아보세요! </span>
                         </p>  
                         </div>
                         
                           
                     </div>
-                    <div id="tab-5" class="tab-content"data-carousel>
-                        <div class = "tab-5 content" id="tab51">
+                    <div id="tab-5" class="tab-content">
+                        
+                        <div class = "tab-5 item_content" id="tab51">
                             <img src = "asset/활동/GM_플랫포머.gif"></img>
                         <p>
-                            플랫포머게임 제작; 쿠키런 클론코딩
+                            플랫포머게임 제작;<br/> 쿠키런 클론코딩
                         </p>  
                         </div>
-                        <div class = "tab-5 content" id="tab52"><img src = "asset/활동/GM_로드맵세미나.png"></img>
+                        <div class = "tab-5 item_content" id="tab52"><img src = "asset/활동/GM_로드맵세미나.png"></img>
                         <p>
                             게임 로드맵 세미나</p></div>
                         
@@ -210,23 +218,25 @@
                         <p>방탈출게임 제작</p>  
                         </div>
                     </div>
-                    <div id="tab-6" class="tab-content"data-carousel>
-                        
-                        <div class = "tab-6 content" id="tab61">
+                    <div id="tab-6" class="tab-content">
+                       
+                        <div class = "tab-6 item_content" id="tab61">
                             <img src = "asset/활동/ET_깃허브.png"></img>
-                        <p>깃허브 사용법
+                        <p>깃허브 세미나<br/>
+                            <span>*깃허브란?<br/>개발자 협업 플랫폼및 코드공유 워크스페이스</span>
+
                         </p>
                         </div>
-                        <div class = "tab-6 content" id="tab62">
+                        <div class = "tab-6 item_content" id="tab62">
                             <img src = "asset/활동/ET_모각코2.png"></img>
-                        <p>학회 gather town 모각코
+                        <p>모각코 in gather town<br/>
+                            <span>*모각코란?<br/>모여서 각자 코딩의 축약어<br/></span>
+                            <span>*gather town이란?<br/>메타버스기반의 온라인 오피스</span>
                         </p>
                     
                         </div>
                         
                     </div>
-                    
-                    
                     
                 </section>
             </div>
@@ -529,4 +539,5 @@
 <script src="js/activity_anim.js"></script>
 <script src="js/animation.js"></script>
 <script src="js/menubar.js"></script>
+
 </html>
