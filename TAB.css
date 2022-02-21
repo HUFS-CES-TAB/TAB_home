@@ -592,7 +592,9 @@ img {
 .main {
   height: 100vh;
   /* height: calc(var(--vh)*100); */}
-
+.activity{
+  height:109vh !important;
+}
 
   li{
     list-style: none;
@@ -637,13 +639,7 @@ img {
     list-style-type: none;
     padding:0;
   }
-/*   
-  .activity_text h1{
-    position: relative;
-    left:2%;
-    font-size: 40px;
 
-  } */
   .activities_item_wrap{
     display:flex;
     /* display: inline-flex; */
@@ -656,10 +652,6 @@ img {
  
   }
   
-  
-   /* .contents li{
-    float: left;
-   } */
   
    .myNav li{
      -webkit-trasition:all .35s ease-in-out;
@@ -712,11 +704,6 @@ img {
     font-size:30%;
   }
 
-/* #tab31,#tab42 {
-    display:flex;
-    flex-wrap: wrap;
-	align-content: stretch;
-  } */
 p {
   display: inline-block;
   width:100%;
