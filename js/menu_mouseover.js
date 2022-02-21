@@ -11,7 +11,6 @@ function handleMenuMouseOver(e) {
         e.target.style.fontSize = "1.5vh";
     }
     e.target.style.fontWeight = "bold";
-    e.target.style.cursor = "pointer";
 
 }
 
