@@ -155,10 +155,15 @@ body {
 .content,.menu_wrap{
   font-family: 'Gowun Batang', serif;
 }
-::-webkit-scrollbar:not(.tab-content.current){
+.tab-content.current::-webkit-scrollbar { 
+  display: block;
+}
+::-webkit-scrollbar{
   display: none;
   
 }
+
+
 ::-webkit-scrollbar-thumb {
   background: #f8f7fb;
   opacity: .4;
