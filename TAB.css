@@ -6,7 +6,109 @@ body {
   color: white;
   -ms-overflow-style: none;
 }
+@media screen and (max-width: 780px) {
+  .tab-content img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
 
+  .item_content {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .main {
+    height: 50vh;
+  }
+  .menu_item {
+    width: 15vw;
+    font-size: 0.5vh;
+  }
+  #TAB_text {
+    font-size: 12vh;
+  }
+  #TAB_abbreviation_text {
+    font-size: 4vh !important;
+    animation: none;
+    position: absolute;
+    right: 3%;
+    top: 27%;
+  }
+  @keyframes slide_left_mobile {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 5%;
+    }
+  }
+  #JOINUS_text,
+  #CMS_text {
+    font-size: 5vh !important;
+    color: #e9ece5;
+    opacity: 0;
+    animation: fade_in 2s 1 1s;
+  }
+  #JOINUS_text {
+    top: 40%;
+    left: 2%;
+  }
+  #CMS_text {
+    top: 50%;
+    right: -5%;
+  }
+
+  .circle1 {
+    height: 10vh;
+    width: 10vh;
+    left: -3%;
+  }
+  .circle2 {
+    height: 20vh;
+    width: 20vh;
+    top: 25%;
+    right: 3%;
+  }
+  .circle3 {
+    height: 12vh;
+    width: 12vh;
+    top: 47%;
+    left: 30%;
+  }
+  #OIDC_awardee {
+    top: 26%;
+  }
+  #HUFS_모각코_awardee {
+    top: 42%;
+  }
+  #HUFS_CF_awardee {
+    border-radius: 20px;
+  }
+  #스타트업_text {
+    top: 29%;
+  }
+  #GDSC_awardee {
+    top: 36%;
+  }
+  #HUFStudy_img {
+    border-radius: 10px;
+  }
+  #HUFStudy_awardee {
+    top: 33%;
+  }
+  #해커톤_awardee {
+    top: 41%;
+  }
+  #HUFS_CF_img {
+    border-radius: 10px;
+  }
+  #HUFS_CF_awardee {
+    top: 24%;
+  }
+  #TAB설명문구 {
+    font-size: 1vw;
+  }
+}
 .content,
 .menu_wrap {
   font-family: "Gowun Batang", serif;
@@ -567,109 +669,6 @@ footer {
   font-size: 0.5vh;
 }
 @media screen and (max-width: 780px) {
-  .tab-content img {
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-  }
-  p {
-    display: none;
-  }
-  .item_content {
-    margin-left: 5% !important;
-    margin-right: 5% !important;
-  }
-  .main {
-    height: 50vh;
-  }
-  .menu_item {
-    width: 15vw;
-    font-size: 0.5vh;
-  }
-  #TAB_text {
-    font-size: 12vh;
-  }
-  #TAB_abbreviation_text {
-    font-size: 4vh !important;
-    animation: none;
-    position: absolute;
-    right: 3%;
-    top: 27%;
-  }
-  @keyframes slide_left_mobile {
-    from {
-      right: -100%;
-    }
-    to {
-      right: 5%;
-    }
-  }
-  #JOINUS_text,
-  #CMS_text {
-    font-size: 5vh !important;
-    color: #e9ece5;
-    opacity: 0;
-    animation: fade_in 2s 1 1s;
-  }
-  #JOINUS_text {
-    top: 40%;
-    left: 2%;
-  }
-  #CMS_text {
-    top: 50%;
-    right: -5%;
-  }
-
-  .circle1 {
-    height: 10vh;
-    width: 10vh;
-    left: -3%;
-  }
-  .circle2 {
-    height: 20vh;
-    width: 20vh;
-    top: 25%;
-    right: 3%;
-  }
-  .circle3 {
-    height: 12vh;
-    width: 12vh;
-    top: 47%;
-    left: 30%;
-  }
-  #OIDC_awardee {
-    top: 26%;
-  }
-  #HUFS_모각코_awardee {
-    top: 42%;
-  }
-  #HUFS_CF_awardee {
-    border-radius: 20px;
-  }
-  #스타트업_text {
-    top: 29%;
-  }
-  #GDSC_awardee {
-    top: 36%;
-  }
-  #HUFStudy_img {
-    border-radius: 10px;
-  }
-  #HUFStudy_awardee {
-    top: 33%;
-  }
-  #해커톤_awardee {
-    top: 41%;
-  }
-  #HUFS_CF_img {
-    border-radius: 10px;
-  }
-  #HUFS_CF_awardee {
-    top: 24%;
-  }
-  #TAB설명문구 {
-    font-size: 1vw;
-  }
   .QnA {
     font-size: 1.4vh;
   }
