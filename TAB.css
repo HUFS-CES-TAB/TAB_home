@@ -39,37 +39,6 @@ body {
     top: 50%;
     right: -5%;
   }
-
-  #OIDC_awardee {
-    top: 26%;
-  }
-  #HUFS_모각코_awardee {
-    top: 42%;
-  }
-  #HUFS_CF_awardee {
-    border-radius: 20px;
-  }
-  #스타트업_text {
-    top: 29%;
-  }
-  #GDSC_awardee {
-    top: 36%;
-  }
-  #HUFStudy_img {
-    border-radius: 10px;
-  }
-  #HUFStudy_awardee {
-    top: 33%;
-  }
-  #해커톤_awardee {
-    top: 41%;
-  }
-  #HUFS_CF_img {
-    border-radius: 10px;
-  }
-  #HUFS_CF_awardee {
-    top: 24%;
-  }
   #TAB설명문구 {
     font-size: 1vw;
   }
@@ -699,5 +668,29 @@ footer {
   }
   .menu_item {
     width: 15vw;
+  }
+  #ICPC_awardee,
+  #HUFS_모각코_awardee {
+    top: 40%;
+  }
+  #OIDC_awardee {
+    top: 25%;
+  }
+  #스타트업_awardee {
+    top: 25%;
+  }
+  #HUFStudy_awardee,
+  #GDSC_awardee {
+    top: 34%;
+  }
+  #해커톤_awardee {
+    top: 42%;
+  }
+  #HUFS_CF_awardee {
+    top: 23%;
+  }
+  #HUFStudy_img,
+  #HUFS_CF_img {
+    border-radius: 10px;
   }
 }
