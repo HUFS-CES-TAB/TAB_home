@@ -24,24 +24,6 @@ body {
     width: 15vw;
     font-size: 0.5vh;
   }
-  #TAB_text {
-    font-size: 12vh;
-  }
-  #TAB_abbreviation_text {
-    font-size: 4vh !important;
-    animation: none;
-    position: absolute;
-    right: 3%;
-    top: 27%;
-  }
-  @keyframes slide_left_mobile {
-    from {
-      right: -100%;
-    }
-    to {
-      right: 5%;
-    }
-  }
   #JOINUS_text,
   #CMS_text {
     font-size: 5vh !important;
@@ -58,23 +40,6 @@ body {
     right: -5%;
   }
 
-  .circle1 {
-    height: 10vh;
-    width: 10vh;
-    left: -3%;
-  }
-  .circle2 {
-    height: 20vh;
-    width: 20vh;
-    top: 25%;
-    right: 3%;
-  }
-  .circle3 {
-    height: 12vh;
-    width: 12vh;
-    top: 47%;
-    left: 30%;
-  }
   #OIDC_awardee {
     top: 26%;
   }
@@ -130,6 +95,7 @@ body {
 
 .logo_menu_wrap {
   height: 5vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   position: fixed;
@@ -141,17 +107,22 @@ body {
   z-index: 1;
 }
 #logo {
-  margin-left: 2%;
-  margin-top: 1%;
+  position: absolute;
+  left: 0;
+  margin-left: 1%;
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: Arial;
+  text-shadow: 3px 3px 3px #5d6c7a;
 }
 
 .menu_wrap {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
-  position: absolute;
   right: 0;
   font-weight: 200;
-  position: fixed;
+  position: absolute;
+  right: 0;
 }
 .menu_item {
   text-align: center;
@@ -192,9 +163,11 @@ body {
 @keyframes slide_right {
   0% {
     left: -40%;
+    opacity: 0;
   }
   100% {
-    left: 8%;
+    left: 0%;
+    opacity: 1;
   }
 }
 @keyframes slide_left {
@@ -217,7 +190,6 @@ body {
   position: absolute;
 }
 #TAB_text {
-  left: 5%;
   font-size: 20vh;
   animation: slide_right 0.5s 1 ease-in-out;
 }
@@ -271,7 +243,7 @@ body {
   height: 30vh;
   width: 30vh;
   top: 30%;
-  right: -5%;
+  right: 5%;
 }
 #circle2-1 {
   animation: rotate_right 5s linear infinite;
@@ -377,10 +349,10 @@ img {
   transform: translate(0, 100%);
 }
 .sa-right {
-  transform: translate(-100%, 0);
+  transform: translate(-30%, 0);
 }
 .sa-left {
-  transform: translate(100%, 0);
+  transform: translate(20%, 0);
 }
 .advantages {
   position: relative;
@@ -655,15 +627,6 @@ p {
 footer {
   text-align: center;
 }
-#logo {
-  font-size: 5vh;
-  margin-left: 3%;
-  margin-top: 3%;
-  font-weight: bold;
-  font-family: Arial;
-
-  text-shadow: 3px 3px 3px #5d6c7a;
-}
 
 .item_content span {
   font-size: 0.5vh;
@@ -677,8 +640,64 @@ footer {
 
     margin: 2vh 6vh 0 6vh;
   }
+  .Q_content {
+    margin-left: 1vh;
+  }
   #Q4 .Q_content {
-    width: 52vw;
+    height: 6vh;
     line-height: 2vh;
+  }
+
+  .Q_icon img {
+    height: 5vh;
+  }
+  .main {
+    height: 68vh;
+  }
+  #TAB_text {
+    font-size: 17vh;
+  }
+  #TAB_abbreviation_text {
+    font-size: 4vh !important;
+    animation: slide_left_mobile 0.5s 1 0.5s ease-in-out;
+    position: absolute;
+    right: 3%;
+    top: 33%;
+  }
+  @keyframes slide_left_mobile {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 5%;
+    }
+  }
+  .circle1 {
+    height: 8vh;
+    width: 8vh;
+    left: -4%;
+  }
+  .circle2 {
+    height: 20vh;
+    width: 20vh;
+    right: 10%;
+  }
+  #JOINUS_text {
+    top: 50%;
+  }
+  #CMS_text {
+    top: 58%;
+  }
+  .circle3 {
+    height: 10vh;
+    width: 10vh;
+    top: 56%;
+    left: 16%;
+  }
+  .menu_wrap {
+    margin-top: -1vh;
+  }
+  .menu_item {
+    width: 15vw;
   }
 }

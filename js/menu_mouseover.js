@@ -7,8 +7,7 @@ function handleMenuMouseOver(e) {
         e.target.style.animation = "mouseover 0.5s 1";
         e.target.style.fontSize = "2vh";
     }else {
-        e.target.style.animation = "mouseover_mobile 0.5s 1";
-        e.target.style.fontSize = "1.5vh";
+        
     }
     e.target.style.fontWeight = "bold";
 
@@ -19,7 +18,6 @@ function handleMenuMouseOut(e) {
     if (screen.width > 540) {
         e.target.style.fontSize = "1.5vh";
     }else {
-        e.target.style.fontSize = "0.5vh";
     }
     
     e.target.style.animation = "none";
